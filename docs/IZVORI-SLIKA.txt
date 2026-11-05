@@ -1,0 +1,29 @@
+boje-i-lakovi: https://www.pexels.com/photo/1887946/ (Free A vivid assortment of open paint cans displaying a spectrum of co) 2000x3000
+molerski-pribor: https://www.pexels.com/photo/9222200/ (Free Close-up of a paint can, roller, and tray on a textured floor, pe) 2000x1333
+rucni-alat: https://www.pexels.com/photo/5484721/ (Free Flat lay of essential carpentry tools including a hammer, gloves,) 2000x1334
+auto-program: https://www.pexels.com/photo/7154632/ (Free Close-up of a man cleaning a car hood with spray and microfiber c) 2000x1333
+basta-i-zalivanje: https://www.pexels.com/photo/4870800/ (Free Close-up of a hand using a garden hose sprayer to water the grass) 2000x1333
+zastitna-oprema: https://www.pexels.com/photo/34965713/ (hard hat) 2000x1333
+baner: https://www.pexels.com/photo/6474454/ (lepeza nijansi u rukama)
+hero: iz predloga klijenta (docs/hero-predlog.png), uvećano Real-ESRGAN x4plus
+
+V2
+auto-farba (izrez, skinuti znakovi i nalepnica): https://www.pexels.com/photo/12565887/
+moler: https://www.pexels.com/photo/6474301/ (izrez rembg)
+
+V2 baneri
+krecenje: https://www.pexels.com/photo/5583126/
+drvo: https://www.pexels.com/photo/221027/
+alat-osnova: https://www.pexels.com/photo/6790088/
+krecenje-glavni: hero-ai.webp (predlog klijenta, Real-ESRGAN)
+farbar-na-poslu: https://www.pexels.com/photo/7493886/
+radnja-police, radnja-alati: slajder sa farbara.org (prave fotografije radnje)
+
+Mapa na /v2/kontakt: public/img/v2/mapa-lokacija.svg i src/data/mapa.json, nacrtano skriptom scripts/napravi-mapu.py iz OpenStreetMap podataka (© OpenStreetMap contributors, ODbL). Natpis "© OpenStreetMap" mora da ostane na mapi.
+
+public/img/v2/auto-lakiranje-logo-m.webp (prijava/registracija): Pexels, foto 30250199, https://www.pexels.com/photo/30250199/. Montaža: skinuta Tyvek oznaka, dodat logo Lisa Comerc na odelo.
+
+public/img/v2/baneri/komora-gklasa-2.webp (hero, Auto program): Pexels, foto 33814683, https://www.pexels.com/photo/33814683/, slika okrenuta, oznaka na vratima uklonjena jer bi bila naopako.
+public/img/v2/audi-salon-baza.webp, audi-salon-karoserija.webp, audi-salon-sjaj.webp (miksovanje boja): Pexels, foto 30822872, https://www.pexels.com/photo/30822872/, prefarbavanje bez izreza.
+
+public/img/v2/pistolj-komora.webp (početna, sekcija O firmi): Pexels, foto 14615263, https://www.pexels.com/photo/14615263/
