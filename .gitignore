@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# izlaz scripts/proveri-stare-adrese.mjs
+/docs/seo/provera-rezultat.tsv

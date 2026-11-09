@@ -1,0 +1,730 @@
+[
+ {
+  "izvor": "/shop",
+  "cilj": "/"
+ },
+ {
+  "izvor": "/home-base",
+  "cilj": "/"
+ },
+ {
+  "izvor": "/portfolio",
+  "cilj": "/"
+ },
+ {
+  "izvor": "/cart",
+  "cilj": "/korpa/"
+ },
+ {
+  "izvor": "/checkout",
+  "cilj": "/porudzbina/"
+ },
+ {
+  "izvor": "/lista-omiljenih",
+  "cilj": "/sacuvani-proizvodi/"
+ },
+ {
+  "izvor": "/privacy-policy-2",
+  "cilj": "/politika-privatnosti/"
+ },
+ {
+  "izvor": "/custom-404",
+  "cilj": "/"
+ },
+ {
+  "izvor": "/custom-404-2",
+  "cilj": "/"
+ },
+ {
+  "izvor": "/moj-nalog/lost-password",
+  "cilj": "/zaboravljena-lozinka/"
+ },
+ {
+  "izvor": "/moj-nalog/orders",
+  "cilj": "/moj-nalog/#porudzbine"
+ },
+ {
+  "izvor": "/moj-nalog/edit-account",
+  "cilj": "/moj-nalog/#podaci"
+ },
+ {
+  "izvor": "/moj-nalog/edit-address",
+  "cilj": "/moj-nalog/#podaci"
+ },
+ {
+  "izvor": "/kategorija/alati/akumulatorski",
+  "cilj": "/kategorija/alati/"
+ },
+ {
+  "izvor": "/kategorija/alati/autofarbarski",
+  "cilj": "/kategorija/alati/?pod=autolakirerski"
+ },
+ {
+  "izvor": "/kategorija/alati/bastenski",
+  "cilj": "/kategorija/alati/?pod=bastenski"
+ },
+ {
+  "izvor": "/kategorija/alati/elektricni",
+  "cilj": "/kategorija/alati/"
+ },
+ {
+  "izvor": "/kategorija/alati/merni",
+  "cilj": "/kategorija/alati/"
+ },
+ {
+  "izvor": "/kategorija/alati/molerski",
+  "cilj": "/kategorija/alati/?pod=molerski"
+ },
+ {
+  "izvor": "/kategorija/alati/rezne-ploce",
+  "cilj": "/kategorija/alati/"
+ },
+ {
+  "izvor": "/kategorija/alati/rucni",
+  "cilj": "/kategorija/alati/"
+ },
+ {
+  "izvor": "/kategorija/autoprogram",
+  "cilj": "/kategorija/auto-program/"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/akrilne-boje",
+  "cilj": "/kategorija/auto-program/?pod=2k-akril-boja"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/brusni-program",
+  "cilj": "/kategorija/auto-program/"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/fileri",
+  "cilj": "/kategorija/auto-program/?pod=spric-gitevi-i-kitevi"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/kitevi",
+  "cilj": "/kategorija/auto-program/?pod=spric-gitevi-i-kitevi"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/lakovi",
+  "cilj": "/kategorija/auto-program/?pod=boje-i-lakovi"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/polir-pasta",
+  "cilj": "/kategorija/auto-program/?pod=polir-paste-na-meru"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/razredjivaci",
+  "cilj": "/kategorija/auto-program/?pod=razredjivaci"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/sundjeri",
+  "cilj": "/kategorija/auto-program/"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/utvrdjivaci",
+  "cilj": "/kategorija/auto-program/?pod=ucvrscivaci"
+ },
+ {
+  "izvor": "/kategorija/autoprogram/zastita-autoprogram",
+  "cilj": "/kategorija/auto-program/"
+ },
+ {
+  "izvor": "/kategorija/bastenski-program",
+  "cilj": "/kategorija/ostali-program/?pod=bastenski-program"
+ },
+ {
+  "izvor": "/kategorija/bastenski-program/pistolji",
+  "cilj": "/kategorija/ostali-program/?pod=bastenski-program"
+ },
+ {
+  "izvor": "/kategorija/bastenski-program/prskalice",
+  "cilj": "/kategorija/ostali-program/?pod=bastenski-program"
+ },
+ {
+  "izvor": "/kategorija/bastenski-program/rucni-alati",
+  "cilj": "/kategorija/ostali-program/?pod=bastenski-program"
+ },
+ {
+  "izvor": "/kategorija/bastenski-program/spojnice",
+  "cilj": "/kategorija/ostali-program/?pod=bastenski-program"
+ },
+ {
+  "izvor": "/kategorija/bastenski-program/strune-za-trimer",
+  "cilj": "/kategorija/ostali-program/?pod=bastenski-program"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boja-za-kozu",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boja-za-radijatore",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton/boja-za-puteve",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton/fasadne-boje",
+  "cilj": "/kategorija/fasade/?pod=fasadne-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton/fasadne-boje/uljane-boje",
+  "cilj": "/kategorija/fasade/?pod=fasadne-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton/fasadne-boje/vodene-boje-fasadne-boje",
+  "cilj": "/kategorija/fasade/?pod=fasadne-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton/nitro-boje",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-beton/vodene-boje",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/bajc",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/lak-za-parket",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/nitro",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/nitro/emajl-zavrsne-nitro",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/nitro/osnovne-nitro",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/pu-lak",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/razredjivaci-boje-za-drvo-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/uljane",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/uljane/emajl-zavrsne",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/uljane/osnovne",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/uljane/razredjivaci-uljane",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/uljane/sandolin-lazur",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/vodene",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/vodene/emajl-zavrsne-vodene",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/vodene/osnovne-vodene",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/zastita-za-drvo",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/zastita-za-drvo/firnajz",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-drvo-2/zastita-za-drvo/sredstva-zastite-od-insekata",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/antirust",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/nitro-boje-za-metal-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/nitro-boje-za-metal-2/3-u-1-boje",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/nitro-boje-za-metal-2/antika-efekt",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/nitro-boje-za-metal-2/efekt-lakovi",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/nitro-boje-za-metal-2/osnovne-temeljne-nitro-boje-za-metal-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/uljane-boje-za-metal-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-metal-2/uljane-boje-za-metal-2/emajl-zavrsne-uljane-boje-za-metal-2",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-skolske-table",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/boje-za-tkanine",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje/drvo",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje/drvo/boje-za-drvo",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje/drvo/poliuretan-boje-i-lakovi-miks",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje/metal",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje/metal/prajmeri",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/industrijske-boje/razredjivaci-industrijske-boje",
+  "cilj": "/kategorija/auto-program/?pod=industrijske-boje"
+ },
+ {
+  "izvor": "/kategorija/boje-i-lakovi/kit-za-drvo",
+  "cilj": "/kategorija/molerski-materijal/?pod=boje-lakovi-i-zastitni-premazi-za-drvo-i-metal"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program",
+  "cilj": "/kategorija/ostali-program/?pod=bravarski-program"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/brusni-program-bravarski-program",
+  "cilj": "/kategorija/ostali-program/?pod=bravarski-program"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/cilindi-brave-i-okovi",
+  "cilj": "/kategorija/ostali-program/?pod=bravarski-program"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/ekseri-zica",
+  "cilj": "/kategorija/ostali-program/?pod=bravarski-program"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/elktrode-zice",
+  "cilj": "/kategorija/ostali-program/?pod=bravarski-program"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/srafovska-roba",
+  "cilj": "/kategorija/alati/?pod=srafovska-roba"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/srafovska-roba/masinski-vijci",
+  "cilj": "/kategorija/alati/?pod=srafovska-roba"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/srafovska-roba/masinski-vijci/vijci",
+  "cilj": "/kategorija/alati/?pod=srafovska-roba"
+ },
+ {
+  "izvor": "/kategorija/bravarski-program/srafovska-roba/vijak-za-gips",
+  "cilj": "/kategorija/alati/?pod=srafovska-roba"
+ },
+ {
+  "izvor": "/kategorija/cistaci",
+  "cilj": "/kategorija/ostali-program/?pod=cistaci"
+ },
+ {
+  "izvor": "/kategorija/cistaci/cistac-odvoda",
+  "cilj": "/kategorija/ostali-program/?pod=cistaci"
+ },
+ {
+  "izvor": "/kategorija/fasade/akrilni-malteri",
+  "cilj": "/kategorija/fasade/?pod=akrilni-malteri"
+ },
+ {
+  "izvor": "/kategorija/fasade/fasadni-premazi",
+  "cilj": "/kategorija/fasade/?pod=fasadne-boje"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi",
+  "cilj": "/kategorija/fasade/?pod=lepkovi"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/drvo-lepkovi",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=lepkovi-za-drvo"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/dvokomponentni-lepkovi",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=dvokomponentni-lepkovi"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/keramicki-lepkovi",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=lepkovi-za-keramiku"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/montazni-lepkovi",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=montaz-i-akrilni-kitovi"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/parket-lepkovi",
+  "cilj": "/kategorija/fasade/?pod=lepkovi"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/tapete-lepkovi",
+  "cilj": "/kategorija/fasade/?pod=lepkovi"
+ },
+ {
+  "izvor": "/kategorija/fasade/lepkovi/univerzalni-lepkovi",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=univerzalni-lepkovi"
+ },
+ {
+  "izvor": "/kategorija/fasade/podloga",
+  "cilj": "/kategorija/fasade/"
+ },
+ {
+  "izvor": "/kategorija/fasade/termoizalacija",
+  "cilj": "/kategorija/fasade/"
+ },
+ {
+  "izvor": "/kategorija/fasade/termoizalacija/stirodur",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/?pod=stirodur"
+ },
+ {
+  "izvor": "/kategorija/fasade/termoizalacija/stiropor",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/?pod=stiropor"
+ },
+ {
+  "izvor": "/kategorija/folije",
+  "cilj": "/kategorija/alati/?pod=folije"
+ },
+ {
+  "izvor": "/kategorija/folije/strec-folija",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=strec-folije"
+ },
+ {
+  "izvor": "/kategorija/fug-mase",
+  "cilj": "/kategorija/ostali-program/?pod=fug-mase"
+ },
+ {
+  "izvor": "/kategorija/gradjevina",
+  "cilj": "/kategorija/ostali-program/?pod=gradjevina"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije/bitumenske-izolacije",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije/bitumenske-izolacije/poliazbitol",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/?pod=poliazbitol"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije/cementne-izolacije",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije/cementne-izolacije/1k",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije/cementne-izolacije/2k",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/"
+ },
+ {
+  "izvor": "/kategorija/hidroiolacije/hidro-trake",
+  "cilj": "/kategorija/hidro-i-termo-izolacija/"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/cipele",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/maske",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/naocare",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/obuca",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/odeca",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/odelo",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/pantalone",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/prsluk",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/rukavice",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/htz-oprema/stitnici-za-kolena",
+  "cilj": "/kategorija/alati/?pod=htz-oprema"
+ },
+ {
+  "izvor": "/kategorija/kucni-program",
+  "cilj": "/kategorija/ostali-program/?pod=kucni-program"
+ },
+ {
+  "izvor": "/kategorija/kucni-program/antikondez-program",
+  "cilj": "/kategorija/ostali-program/?pod=kucni-program"
+ },
+ {
+  "izvor": "/kategorija/kucni-program/hemija",
+  "cilj": "/kategorija/ostali-program/?pod=kucni-program"
+ },
+ {
+  "izvor": "/kategorija/kucni-program/higijenski-program",
+  "cilj": "/kategorija/ostali-program/?pod=kucni-program"
+ },
+ {
+  "izvor": "/kategorija/kucni-program/ostalo-kucni-program",
+  "cilj": "/kategorija/ostali-program/?pod=kucni-program"
+ },
+ {
+  "izvor": "/kategorija/lajsne",
+  "cilj": "/kategorija/fasade/?pod=lajsne"
+ },
+ {
+  "izvor": "/kategorija/lajsne/keramicke",
+  "cilj": "/kategorija/fasade/?pod=lajsne"
+ },
+ {
+  "izvor": "/kategorija/lajsne/keramicke/aluminijumske-keramicke",
+  "cilj": "/kategorija/fasade/?pod=lajsne"
+ },
+ {
+  "izvor": "/kategorija/lajsne/molerske-lajsne",
+  "cilj": "/kategorija/fasade/?pod=lajsne"
+ },
+ {
+  "izvor": "/kategorija/lajsne/prelazne-lajsne",
+  "cilj": "/kategorija/fasade/?pod=lajsne"
+ },
+ {
+  "izvor": "/kategorija/molerski-material",
+  "cilj": "/kategorija/molerski-materijal/"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/akrilne-latex-perive-boje",
+  "cilj": "/kategorija/molerski-materijal/?pod=akrilne-boje"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/disperzione-boje",
+  "cilj": "/kategorija/molerski-materijal/?pod=disperzije"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/glet-mase",
+  "cilj": "/kategorija/molerski-materijal/?pod=glet-mase"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/ispune-gips",
+  "cilj": "/kategorija/molerski-materijal/"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/molerski-materijal",
+  "cilj": "/kategorija/molerski-materijal/"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/molerski-materijal/toneri",
+  "cilj": "/kategorija/molerski-materijal/"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/ostalo",
+  "cilj": "/kategorija/molerski-materijal/"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/podloge",
+  "cilj": "/kategorija/molerski-materijal/?pod=podloge"
+ },
+ {
+  "izvor": "/kategorija/molerski-material/poludisperzione-boje",
+  "cilj": "/kategorija/molerski-materijal/?pod=poludisperzije"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/poliuretanski",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/purpene",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-pur-pena"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/purpene/pistoljske",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-pur-pena"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/purpene/pistoljske/standard",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-pur-pena"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/purpene/pistoljske/za-lepljenje",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-pur-pena"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/purpene/pistoljske/za-stiropor",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-pur-pena"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/actatni",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/akrilni",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=montaz-i-akrilni-kitovi"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/bitumen",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/neutralni",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/neutralni/akvarijum",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/neutralni/ogledalo",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/pu-silikoni",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/silikoni-purpene/silikoni/sanitarni",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=sve-vrste-silikona"
+ },
+ {
+  "izvor": "/kategorija/sprejevi",
+  "cilj": "/kategorija/ostali-program/?pod=sprejevi"
+ },
+ {
+  "izvor": "/kategorija/suva-gradnja-gips",
+  "cilj": "/kategorija/ostali-program/?pod=suva-gradnja-gips"
+ },
+ {
+  "izvor": "/kategorija/suva-gradnja-gips/ostalo-suva-gradnja-gips",
+  "cilj": "/kategorija/ostali-program/?pod=suva-gradnja-gips"
+ },
+ {
+  "izvor": "/kategorija/suva-gradnja-gips/profili",
+  "cilj": "/kategorija/ostali-program/?pod=suva-gradnja-gips"
+ },
+ {
+  "izvor": "/kategorija/suva-gradnja-gips/trake-suva-gradnja-gips",
+  "cilj": "/kategorija/ostali-program/?pod=suva-gradnja-gips"
+ },
+ {
+  "izvor": "/kategorija/tapete",
+  "cilj": "/kategorija/ostali-program/?pod=tapete"
+ },
+ {
+  "izvor": "/kategorija/tapete/lepkovi-za-tapete",
+  "cilj": "/kategorija/ostali-program/?pod=tapete"
+ },
+ {
+  "izvor": "/kategorija/trake",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/"
+ },
+ {
+  "izvor": "/kategorija/trake/bandaz",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/"
+ },
+ {
+  "izvor": "/kategorija/trake/duplex-dukt-trake",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/"
+ },
+ {
+  "izvor": "/kategorija/trake/krep-zastitne-trake",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=krep-trake"
+ },
+ {
+  "izvor": "/kategorija/trake/pak-trake",
+  "cilj": "/kategorija/silikoni-lepkovi-pur-pene-trake/?pod=mat-i-selotejp-trake"
+ },
+ {
+  "izvor": "/kategorija/uncategorized",
+  "cilj": "/kategorija/ostali-program/"
+ }
+]

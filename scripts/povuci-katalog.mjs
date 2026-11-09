@@ -3,98 +3,11 @@
 import fs from "node:fs";
 import sharp from "sharp";
 import { bezKvacica, mapiraj } from "../src/lib/obrada.mjs";
+import { MAPA } from "./mapa-kategorija.mjs";
 
 const MAX = 12;
 const API = "https://www.farbara.org/wp-json/wc/store/v1/products";
 
-// c = kategorija na starom sajtu, q = pojam koji mora da postoji u nazivu artikla (1.535 artikala nema kategoriju)
-const MAPA = {
-  "Auto program": {
-    "Boje i lakovi": [{ c: 102 }, { q: "hs lak" }, { q: "2k lak" }],
-    "Metalik baza": [{ q: "metalik" }, { q: "baza", ceo: true }, { q: "basecoat" }, { q: "base" , ceo: true }],
-    "2K akril boja": [{ c: 101 }, { q: "2k" }],
-    "Industrijske boje": [{ c: 110 }],
-    "Špric gitevi i kitevi": [{ c: 106 }, { c: 105 }, { q: "spric" }],
-    "Učvršćivači": [{ c: 107 }, { q: "herter" }, { q: "utvrdjivac" }],
-    "Razređivači": [{ c: 103 }, { q: "razredjivac" }],
-    "Polir paste na meru": [{ c: 352 }, { q: "polir" }],
-  },
-  "Molerski materijal": {
-    "Disperzije": [{ c: 196 }],
-    "Poludisperzije": [{ c: 197 }],
-    "Akrilne boje": [{ c: 198 }],
-    "Glet mase": [{ c: 200 }, { q: "glet", ceo: true, ne: "valjak" }],
-    "Podloge": [{ c: 199 }, { q: "podloga" }],
-    "Mašinski malteri": [{ q: "malter" }],
-    "Boje, lakovi i zaštitni premazi za drvo i metal": [{ c: 222 }, { c: 237 }],
-  },
-  "Alati": {
-    "Molerski": [{ c: 430 }],
-    "Farbarski": [{ q: "valjak" }, { q: "cetka" }],
-    "Autolakirerski": [{ c: 124 }],
-    "Baštenski": [{ c: 126 }],
-    "Creva": [{ q: "crevo" }],
-    "HTZ oprema": [{ c: 140 }],
-    "Burgije": [{ q: "burgija" }, { q: "burgije" }],
-    "Drvene i metalne merdevine": [{ q: "merdevine" }],
-    "Šmirgle": [{ q: "smirgla" }],
-    "Folije": [{ c: 146 }, { q: "folija" }],
-    "Pištolji za farbanje": [{ q: "pistolj za farb" }, { q: "pistolj za boj" }, { q: "pistolj farb" }],
-    "Pištolji za pur pene": [{ q: "pistolj za pur" }, { q: "pistolj pur" }, { q: "pistolj za penu" }],
-    "Pištolji za silikone": [{ q: "pistolj za silikon" }, { q: "pistolj silikon" }],
-    "Šrafovska roba": [{ c: 270 }],
-  },
-  "Hidro i termo izolacija": {
-    "Kondori": [{ q: "kondor" }],
-    "Poliazbitol": [{ c: 208 }, { q: "poliazbitol" }],
-    "Penetrati": [{ q: "penetr" }, { q: "impregn" }, { q: "dubinsk" }],
-    "Aditivi za betone": [{ q: "aditiv" }, { q: "sika" }],
-    "Stiropor": [{ c: 162 }, { q: "stiropor" }],
-    "Stirodur": [{ c: 163 }, { q: "stirodur" }],
-    "Mrežice": [{ q: "mrezica" }, { q: "mreza" }],
-    "Plastifikatori": [{ q: "plastifik" }, { q: "plastocret" }, { q: "plastiment" }, { q: "plastimen" }],
-  },
-  "Fasade": {
-    "Lepkovi": [{ q: "lepak za stiropor" }, { q: "lepak za fasad" }, { q: "armir" }, { c: 165 }],
-    "Tiplovi": [{ q: "tipl" }],
-    "Mineralni malteri": [{ q: "mineralni" }, { q: "bavalit" }, { q: "silikatn" }],
-    "Akrilni malteri": [{ c: 170 }, { q: "akrilni malter" }],
-    "Fasadne boje": [{ c: 169 }, { c: 253 }, { q: "fasad" }],
-    "Stiropor": [{ c: 162 }, { q: "stiropor" }],
-    "Stirodur": [{ c: 163 }, { q: "stirodur" }],
-    "Mrežice": [{ q: "mrezica" }, { q: "mreza" }],
-    "Fasadni glet": [{ q: "fasadni glet" }, { q: "glet", ceo: true, ne: "valjak" }],
-    "Lajsne": [{ c: 263 }, { c: 257 }, { q: "lajsna" }],
-    "Kuliri": [{ q: "kulir" }],
-  },
-  "Silikoni, lepkovi, pur pene, trake": {
-    "Sve vrste silikona": [{ c: 188 }, { q: "silikon" }],
-    "Sve vrste pur pena": [{ c: 179 }, { q: "pur pena" }],
-    "Lepkovi za drvo": [{ c: 607 }, { q: "drvofix" }, { q: "moment wood" }],
-    "Lepkovi za šoferšajbne": [{ q: "sofersajb" }, { q: "stakla" }],
-    "Montaž i akrilni kitovi": [{ c: 603 }, { c: 190 }, { q: "montaz" }],
-    "Super lepkovi": [{ q: "super lepak" }, { q: "sekundni" }, { q: "expres" }],
-    "Univerzalni lepkovi": [{ c: 606 }],
-    "Dvokomponentni lepkovi": [{ c: 609 }, { q: "dvokomponent" }, { q: "2k lepak" }],
-    "Lepkovi za keramiku": [{ c: 608 }, { q: "lepak za keramik" }],
-    "Krep trake": [{ c: 154 }, { q: "krep" }],
-    "Mat i selotejp trake": [{ q: "selotejp" }, { q: "seloteip" }, { c: 156 }],
-    "Streč folije": [{ c: 308 }, { q: "strec" }],
-    "Trake za kade": [{ q: "traka za kad" }, { q: "kade" }],
-    "Diht trake": [{ q: "diht" }],
-  },
-  "Ostali program": {
-    "Baštenski program": [{ c: 134 }],
-    "Bravarski program": [{ c: 269 }],
-    "Čistači": [{ c: 303 }, { q: "cistac" }],
-    "Fug mase": [{ c: 304 }, { q: "fug" }],
-    "Građevina": [{ c: 300 }],
-    "Kućni program": [{ c: 285 }],
-    "Sprejevi": [{ c: 310 }],
-    "Suva gradnja / gips": [{ c: 215 }],
-    "Tapete": [{ c: 265 }, { q: "tapet" }],
-  },
-};
 
 const pauza = (ms) => new Promise((r) => setTimeout(r, ms));
 let zahteva = 0;

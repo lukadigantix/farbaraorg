@@ -5,17 +5,19 @@ import { firma } from "@/data/sadrzaj";
 import { grupe, putanjaGrupe, tel } from "@/data/v2";
 
 const informacije = [
-  ["O nama", "/v2/o-nama"],
-  ["Dostava", "/v2/dostava"],
-  ["Način plaćanja", "/v2/nacin-placanja"],
-  ["Pitanja i odgovori", "/v2/pitanja-i-odgovori"],
-  ["Kontakt", "/v2/kontakt"],
+  ["O nama", "/o-nama"],
+  ["Dostava", "/dostava"],
+  ["Način plaćanja", "/nacin-placanja"],
+  ["Pitanja i odgovori", "/pitanja-i-odgovori"],
+  ["Kontakt", "/kontakt"],
+  ["Uslovi korišćenja", "/uslovi-koriscenja"],
+  ["Politika privatnosti", "/politika-privatnosti"],
 ];
 const nalog = [
-  ["Prijava / Registracija", "/v2/prijava"],
-  ["Moj nalog", "/v2/prijava"],
-  ["Sačuvani proizvodi", "/v2/sacuvani-proizvodi"],
-  ["Korpa", "/v2/korpa"],
+  ["Prijava / Registracija", "/prijava"],
+  ["Moj nalog", "/moj-nalog"],
+  ["Sačuvani proizvodi", "/sacuvani-proizvodi"],
+  ["Korpa", "/korpa"],
 ];
 
 const naslovKolone = "text-[15px] font-medium text-tinta";
@@ -35,7 +37,7 @@ export default function Podnozje() {
       </div>
       <div className="v2-omot grid gap-x-12 gap-y-12 py-14 lg:grid-cols-[300px_1fr] lg:py-20 xl:gap-x-20">
         <div>
-          <Link href="/v2" aria-label="Farbara Lisa Comerc, početna" className="inline-block">
+          <Link href="/" aria-label="Farbara Lisa Comerc, početna" className="inline-block">
             <Image src="/img/logo.svg" alt="Farbara Lisa Comerc" width={2037} height={616} unoptimized className="h-14 w-auto lg:h-16" />
           </Link>
           <p className="mt-6 text-[15px] leading-relaxed font-light text-sivi-2">
@@ -94,7 +96,7 @@ export default function Podnozje() {
           <a href="https://zeroblynk.com" target="_blank" rel="noopener" aria-label="Design & Developed by Zeroblynk" className="group flex items-center gap-2 whitespace-nowrap">
             Design & Developed by
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/zeroblynk.svg" alt="" className="h-[22px] w-auto transition-opacity group-hover:opacity-80" />
+            <img src="/img/zeroblynk.svg" alt="" className="h-[17px] w-auto transition-opacity group-hover:opacity-80" />
           </a>
         </div>
       </div>

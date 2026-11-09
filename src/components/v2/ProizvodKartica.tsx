@@ -17,7 +17,7 @@ export default function ProizvodKartica({ id, naziv, brend, cena: iznos, slika, 
       <div className="relative shrink-0">
         <Link href={link} aria-label={naziv} className="relative block h-[150px] overflow-hidden rounded-xl bg-sivka sm:h-[196px]">
           <span className={`absolute ${puna ? "inset-0" : "inset-x-[12%] top-[14%] bottom-[8%]"}`}>
-            <Image src={slika} alt="" fill sizes={sizes} className={`transition-transform duration-300 group-hover:scale-[1.04] ${puna ? "object-cover" : "object-contain mix-blend-multiply"}`} />
+            <Image src={slika} alt={naziv} fill sizes={sizes} className={`transition-transform duration-300 group-hover:scale-[1.04] ${puna ? "object-cover" : "object-contain mix-blend-multiply"}`} />
           </span>
           {brend && <span className="absolute top-2.5 left-2.5 max-w-[calc(100%-56px)] truncate rounded-full bg-white px-2.5 py-1 text-[12px] leading-none font-medium">{brend}</span>}
         </Link>

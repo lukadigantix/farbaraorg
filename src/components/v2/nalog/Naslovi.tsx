@@ -9,7 +9,7 @@ const TEKST = {
 };
 
 export default function Naslovi() {
-  const putanja = usePathname();
+  const putanja = usePathname().replace(/\/$/, "");
   const [naslov, podnaslov] = putanja.endsWith("/zaboravljena-lozinka") ? TEKST.lozinka : putanja.endsWith("/registracija") ? TEKST.registracija : TEKST.prijava;
   return (
     <div className="text-center">

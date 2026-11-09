@@ -107,7 +107,7 @@ export default function FormaRegistracije() {
             {uslovi && <Check aria-hidden className="size-3.5" strokeWidth={3} />}
           </span>
           <span>
-            Prihvatam <Link href="#" className="text-narandza underline underline-offset-2">uslove korišćenja</Link> i <Link href="#" className="text-narandza underline underline-offset-2">politiku privatnosti</Link>
+            Prihvatam <Link href="/uslovi-koriscenja" target="_blank" className="text-narandza underline underline-offset-2">uslove korišćenja</Link> i <Link href="/politika-privatnosti" target="_blank" className="text-narandza underline underline-offset-2">politiku privatnosti</Link>
           </span>
         </label>
         {greskaUslova && <p className="mt-0.5 px-1 text-[13px] text-crvena">Potrebno je da prihvatite uslove</p>}

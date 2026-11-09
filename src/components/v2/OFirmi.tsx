@@ -15,7 +15,7 @@ export default function OFirmi() {
           </h2>
           <div>
             <p className="max-w-[26em] text-[17px] leading-[1.45]">Osnovana marta 1991. godine, sa osnivačem i direktorom Milonjom Golubovićem na čelu.</p>
-            <Link href="/v2/o-nama" className="mt-6 inline-flex h-14 items-center gap-3 rounded-full bg-white px-7 text-[16px] font-medium text-narandza uppercase transition-colors hover:bg-breskva">
+            <Link href="/o-nama" className="mt-6 inline-flex h-14 items-center gap-3 rounded-full bg-white px-7 text-[16px] font-medium text-narandza uppercase transition-colors hover:bg-breskva">
               O nama
               <ArrowRight aria-hidden className="size-5" strokeWidth={2} />
             </Link>

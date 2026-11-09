@@ -113,7 +113,7 @@ export function SacuvanoIkonica() {
   const { stavke } = useSacuvano();
   const n = stavke.length;
   return (
-    <Link href="/v2/sacuvani-proizvodi" aria-label={`Sačuvani proizvodi: ${n}`} className="relative grid size-10 place-items-center transition-colors hover:text-narandza">
+    <Link href="/sacuvani-proizvodi" aria-label={`Sačuvani proizvodi: ${n}`} className="relative grid size-10 place-items-center transition-colors hover:text-narandza">
       <Heart aria-hidden className="size-[22px]" strokeWidth={1.75} />
       {n > 0 && (
         <span key={n} className="v2-bedz absolute -top-0.5 -right-0.5 grid h-[18px] min-w-[18px] place-items-center rounded-full bg-narandza px-1 text-[11px] leading-none font-medium text-white">

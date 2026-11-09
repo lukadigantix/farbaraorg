@@ -162,7 +162,7 @@ function Spisak({ nazad, naKlik }: { nazad: () => void; naKlik: () => void }) {
           <span className="text-[15px] font-light text-sivi-2">Ukupno</span>
           <span className="text-[28px] leading-none font-[550] tracking-[-0.03em] whitespace-nowrap">{cena(ukupno)}</span>
         </div>
-        <Link href="/v2/porudzbina" onClick={naKlik} className="mt-3 flex h-12 items-center justify-center rounded-full text-[15px] ring-1 ring-[#d8dbdb] transition-colors hover:bg-sivka">Poruči preko sajta</Link>
+        <Link href="/porudzbina" onClick={naKlik} className="mt-3 flex h-12 items-center justify-center rounded-full text-[15px] ring-1 ring-[#d8dbdb] transition-colors hover:bg-sivka">Poruči preko sajta</Link>
       </div>
     </div>
   );
@@ -187,7 +187,7 @@ export default function Asistent() {
   const prati = useRef(true);
   const bioOtvoren = useRef(false);
 
-  // Adresa /v2/chat, koju prodavci daju kupcima u redu, odmah otvara chat
+  // Adresa /chat, koju prodavci daju kupcima u redu, odmah otvara chat
   useEffect(() => {
     const adresa = new URL(location.href);
     if (!adresa.searchParams.has("chat")) return;
@@ -299,7 +299,7 @@ export default function Asistent() {
     let odgovor = "";
 
     try {
-      const r = await fetch("/api/chat", {
+      const r = await fetch("/api/chat/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ poruke: istorija.map(({ role, content }) => ({ role, content })) }),

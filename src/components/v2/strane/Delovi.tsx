@@ -7,7 +7,7 @@ import { tel } from "@/data/v2";
 export function Putanja({ naziv }: { naziv: string }) {
   return (
     <nav aria-label="Putanja" className="flex items-center gap-1.5 text-[14px] text-sivi-2">
-      <Link href="/v2" className="transition-colors hover:text-tinta">Početna</Link>
+      <Link href="/" className="transition-colors hover:text-tinta">Početna</Link>
       <ChevronRight aria-hidden className="size-3.5" />
       <span className="text-tinta">{naziv}</span>
     </nav>

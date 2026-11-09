@@ -148,7 +148,7 @@ export function KorpaProvider({ children }: { children: ReactNode }) {
                   </span>
                   <span className="mt-0.5 block truncate">{poruka.stavka.naziv}</span>
                 </span>
-                <Link href="/v2/korpa" onClick={() => setPoruka(null)} className="grid h-9 shrink-0 place-items-center rounded-full bg-white px-3.5 text-[14px] font-medium text-tinta transition-colors hover:bg-sivka">
+                <Link href="/korpa" onClick={() => setPoruka(null)} className="grid h-9 shrink-0 place-items-center rounded-full bg-white px-3.5 text-[14px] font-medium text-tinta transition-colors hover:bg-sivka">
                   Korpa
                 </Link>
               </>
@@ -173,7 +173,7 @@ export function KorpaProvider({ children }: { children: ReactNode }) {
 export function KorpaDugme() {
   const { broj } = useKorpa();
   return (
-    <Link href="/v2/korpa" aria-label={`Korpa, ${brojArtikala(broj)}`} className="relative grid size-10 place-items-center transition-colors hover:text-narandza">
+    <Link href="/korpa" aria-label={`Korpa, ${brojArtikala(broj)}`} className="relative grid size-10 place-items-center transition-colors hover:text-narandza">
       <ShoppingBag aria-hidden className="size-[22px]" strokeWidth={1.75} />
       {broj > 0 && (
         <span key={broj} className="v2-bedz absolute -top-0.5 -right-0.5 grid h-[18px] min-w-[18px] place-items-center rounded-full bg-narandza px-1 text-[11px] leading-none font-medium text-white">

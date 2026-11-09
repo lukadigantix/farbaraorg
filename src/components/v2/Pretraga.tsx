@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Search, X } from "lucide-react";
 import { cena } from "@/data/v2";
 
@@ -16,6 +17,7 @@ export default function Pretraga() {
   const [stanje, setStanje] = useState<Stanje>({ tip: "kratko" });
   const [izlazi, setIzlazi] = useState(false);
   const polje = useRef<HTMLInputElement>(null);
+  const router = useRouter();
   const izlazTajmer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Panel ostaje u stranici dok ne završi izlaznu animaciju
@@ -65,7 +67,7 @@ export default function Pretraga() {
     const prekid = new AbortController();
     const t = setTimeout(async () => {
       try {
-        const r = await fetch(`/api/pretraga?q=${encodeURIComponent(pojam)}`, { signal: prekid.signal });
+        const r = await fetch(`/api/pretraga/?q=${encodeURIComponent(pojam)}`, { signal: prekid.signal });
         if (!r.ok) throw new Error();
         setStanje({ tip: "gotovo", pojam, artikli: await r.json() });
       } catch {
@@ -105,14 +107,28 @@ export default function Pretraga() {
 
               <div className="relative flex items-center gap-3 border-b border-gray-200/60 px-5 py-4">
                 <Search aria-hidden className="h-5 w-5 shrink-0 text-narandza" />
+                <form
+                  role="search"
+                  className="contents"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    const pojam = unos.trim();
+                    if (pojam.length < 2) return;
+                    router.push(`/pretraga/?q=${encodeURIComponent(pojam)}`);
+                    zatvori();
+                  }}
+                >
                 <input
                   ref={polje}
+                  type="search"
+                  enterKeyHint="search"
                   value={unos}
                   onChange={(e) => kucaj(e.target.value)}
                   aria-label="Pretraga"
                   placeholder="Pretraži po nazivu, šifri ili kategoriji..."
-                  className="min-w-0 flex-1 bg-transparent text-base text-gray-900 outline-none placeholder:text-gray-400 sm:text-sm"
+                  className="min-w-0 flex-1 bg-transparent text-base text-gray-900 outline-none placeholder:text-gray-400 sm:text-sm [&::-webkit-search-cancel-button]:hidden"
                 />
+                </form>
                 <button type="button" aria-label="Zatvori pretragu" onClick={zatvori} className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gray-200/60 bg-white/50 text-gray-600 transition-colors hover:bg-white">
                   <X aria-hidden className="h-4 w-4" />
                 </button>
@@ -145,7 +161,7 @@ export default function Pretraga() {
                       ))}
                     </ul>
                     <div className="mt-4">
-                      <Link href="#" onClick={zatvori} className="block w-full rounded-2xl bg-narandza px-4 py-3 text-center text-sm font-semibold text-white shadow-md transition-all duration-200 hover:bg-narandza-tamna">
+                      <Link href={`/pretraga/?q=${encodeURIComponent(stanje.pojam)}`} onClick={zatvori} className="block w-full rounded-2xl bg-narandza px-4 py-3 text-center text-sm font-semibold text-white shadow-md transition-all duration-200 hover:bg-narandza-tamna">
                         Prikaži sve rezultate →
                       </Link>
                     </div>

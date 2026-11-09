@@ -55,11 +55,11 @@ export default function StranaKorpe() {
         <aside className="rounded-[24px] bg-ugalj p-6 text-white lg:sticky lg:top-[88px] lg:p-7" aria-label="Pregled porudžbine">
           <p className="text-[15px] text-white/60">Ukupno</p>
           <p className="mt-1 text-[clamp(2.25rem,3vw,2.75rem)] leading-none font-[550] tracking-[-0.03em]">{cena(ukupno)}</p>
-          <Link href="/v2/porudzbina" className="mt-6 flex h-[60px] items-center justify-center gap-2.5 rounded-full bg-narandza text-[16px] font-medium text-white uppercase transition-colors hover:bg-narandza-tamna">
+          <Link href="/porudzbina" className="mt-6 flex h-[60px] items-center justify-center gap-2.5 rounded-full bg-narandza text-[16px] font-medium text-white uppercase transition-colors hover:bg-narandza-tamna">
             Nastavi na porudžbinu
             <ArrowRight aria-hidden className="size-5" strokeWidth={2} />
           </Link>
-          <Link href="/v2" className="mt-2.5 flex h-[52px] items-center justify-center rounded-full text-[15px] ring-1 ring-white/25 transition-colors hover:bg-white/10">Dodaj još proizvoda</Link>
+          <Link href="/" className="mt-2.5 flex h-[52px] items-center justify-center rounded-full text-[15px] ring-1 ring-white/25 transition-colors hover:bg-white/10">Dodaj još proizvoda</Link>
           <a href={tel(firma.fiksni)} className="mt-4 block text-center text-[14px] font-light text-white/70 transition-colors hover:text-white">Poručite i telefonom: <span className="font-medium whitespace-nowrap">{firma.fiksni}</span></a>
         </aside>
       </div>

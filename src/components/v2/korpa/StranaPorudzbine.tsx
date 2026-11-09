@@ -92,7 +92,7 @@ export default function StranaPorudzbine() {
             <ShoppingBag aria-hidden className="size-7" strokeWidth={1.5} />
           </span>
           <h1 className="mt-4 text-[clamp(1.875rem,3vw,2.5rem)] font-[550] tracking-[-0.03em]">Korpa je prazna</h1>
-          <Link href="/v2" className="mt-6 inline-flex h-14 items-center rounded-full bg-narandza px-8 font-medium text-white uppercase transition-colors hover:bg-narandza-tamna">Nazad u prodavnicu</Link>
+          <Link href="/" className="mt-6 inline-flex h-14 items-center rounded-full bg-narandza px-8 font-medium text-white uppercase transition-colors hover:bg-narandza-tamna">Nazad u prodavnicu</Link>
         </div>
       </div>
     );
@@ -108,7 +108,7 @@ export default function StranaPorudzbine() {
       noValidate
       className="v2-omot pt-6 lg:pt-10"
     >
-      <Link href="/v2/korpa" className="inline-flex items-center gap-2 text-[15px] text-sivi-2 transition-colors hover:text-narandza">
+      <Link href="/korpa" className="inline-flex items-center gap-2 text-[15px] text-sivi-2 transition-colors hover:text-narandza">
         <ArrowLeft aria-hidden className="size-4" />
         Nazad na korpu
       </Link>
@@ -223,7 +223,7 @@ export default function StranaPorudzbine() {
                 {uslovi && <Check aria-hidden className="size-3.5" strokeWidth={3} />}
               </span>
               <span className="text-white/85">
-                Prihvatam <Link href="#" className="underline underline-offset-2">uslove korišćenja</Link> i <Link href="#" className="underline underline-offset-2">politiku privatnosti</Link>
+                Prihvatam <Link href="/uslovi-koriscenja" target="_blank" className="underline underline-offset-2">uslove korišćenja</Link> i <Link href="/politika-privatnosti" target="_blank" className="underline underline-offset-2">politiku privatnosti</Link>
               </span>
             </label>
             {greskaUslova && <p className="mt-1 text-[13px] text-[#ff8a80]">Potrebno je da prihvatite uslove</p>}

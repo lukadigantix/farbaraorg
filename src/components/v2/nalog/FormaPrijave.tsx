@@ -13,7 +13,7 @@ export default function FormaPrijave() {
       <Polje oznaka="E-mail" type="email" inputMode="email" autoComplete="email" autoCapitalize="none" {...f.polje("email")} />
       <PoljeLozinke oznaka="Lozinka" autoComplete="current-password" {...f.polje("lozinka")} />
       <div className="pt-1">
-        <Link href="/v2/zaboravljena-lozinka" className="text-[15px] font-medium text-narandza underline-offset-2 hover:underline">Zaboravili ste lozinku?</Link>
+        <Link href="/zaboravljena-lozinka" className="text-[15px] font-medium text-narandza underline-offset-2 hover:underline">Zaboravili ste lozinku?</Link>
       </div>
       <div className="flex items-center justify-between pb-2">
         <span id="zapamti-me" className="text-[15px] font-light text-[#4d5361]">Zapamti me na ovom uređaju</span>

@@ -1,3 +1,4 @@
+import { cache } from "react";
 import katalog from "@/data/katalog.json";
 import { mapiraj } from "./obrada.mjs";
 
@@ -18,8 +19,9 @@ export type Detalji = {
 
 export const izSluga = (slug: string) => Number(slug.match(/-(\d+)$/)?.[1] ?? slug);
 
-// Artikal iz uzorka je odmah tu; ostale (iz pretrage i chata) strana čita uživo iz prodavnice
-export async function nadjiArtikal(id: number): Promise<Detalji | null> {
+// Artikal iz uzorka je odmah tu; ostale (iz pretrage i chata) strana čita uživo iz prodavnice.
+// cache: metadata i strana u istom zahtevu dele jedan poziv
+export const nadjiArtikal = cache(async function nadjiArtikal(id: number): Promise<Detalji | null> {
   if (!Number.isInteger(id) || id <= 0) return null;
   const izKataloga = katalog.find((p) => p.id === id);
   if (izKataloga) return izKataloga;
@@ -30,4 +32,4 @@ export async function nadjiArtikal(id: number): Promise<Detalji | null> {
   if (!r?.ok) return null;
   const { lokalna: _lokalna, ...a } = mapiraj(await r.json());
   return a.cena >= 2 ? a : null;
-}
+});

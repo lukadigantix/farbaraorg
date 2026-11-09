@@ -61,10 +61,10 @@ export function ProdavnicaDugme() {
 
 const STAVKE = [
   { naziv: "Miksovanje boja", href: putanjaGrupe("Auto program"), istaknuto: true },
-  { naziv: "O nama", href: "/v2/o-nama" },
-  { naziv: "Pitanja i odgovori", href: "/v2/pitanja-i-odgovori" },
-  { naziv: "Kontakt", href: "/v2/kontakt" },
-  { naziv: "Prijava / Registracija", href: "/v2/prijava" },
+  { naziv: "O nama", href: "/o-nama" },
+  { naziv: "Pitanja i odgovori", href: "/pitanja-i-odgovori" },
+  { naziv: "Kontakt", href: "/kontakt" },
+  { naziv: "Prijava / Registracija", href: "/prijava" },
 ];
 
 const EKSPO = "ease-[cubic-bezier(0.16,1,0.3,1)] motion-reduce:transition-none";
@@ -138,7 +138,7 @@ export function MobilniMeniV2() {
         <div className={`h-full overflow-y-auto overscroll-contain bg-white px-6 pb-24 transition-all duration-500 ${EKSPO} ${otvoreno ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0"}`}>
           <ul className="divide-y divide-linija">
             <li {...ulaz(0)}>
-              <Link href="/v2" onClick={zatvori} className="block py-4 text-[16px]">Početna</Link>
+              <Link href="/" onClick={zatvori} className="block py-4 text-[16px]">Početna</Link>
             </li>
             <li {...ulaz(1)}>
               <button type="button" aria-expanded={podmeni} onClick={() => setPodmeni((o) => !o)} className="flex w-full items-center justify-between py-4 text-[16px]">

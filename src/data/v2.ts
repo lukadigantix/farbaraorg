@@ -162,9 +162,9 @@ export const uSlug = (t: string) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 
-export const linkArtikla = (id: number | string, naziv: string) => `/v2/proizvod/${uSlug(naziv)}-${id}`;
+export const linkArtikla = (id: number | string, naziv: string) => `/proizvod/${uSlug(naziv)}-${id}/`;
 
-export const putanjaGrupe = (naziv: string) => `/v2/kategorija/${uSlug(naziv)}`;
+export const putanjaGrupe = (naziv: string) => `/kategorija/${uSlug(naziv)}/`;
 
 export const kategorijeV2 = [
   { naziv: "Auto program", opis: "Metalik baza, 2K akril boja, kitevi, učvršćivači i polir paste na meru", id: "mobihel-2k" },
